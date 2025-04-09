@@ -1,0 +1,24 @@
+export type User={
+     id:string
+     firstName:string
+     lastName:string
+     middleName:string
+     gender:string
+     dateOfBirth:string
+     phoneNumber:string
+     email:string
+     country:string
+     region:string
+     city:string
+     zipCode:string
+     division:string
+     union:string
+     conference:string
+     station:string
+     district:string
+     congregation:string
+     preferredLanguage:string
+     hasParticipateInAdventistCommunity:boolean
+     hasBaptized:boolean
+     expectTobeBaptise:boolean
+}
