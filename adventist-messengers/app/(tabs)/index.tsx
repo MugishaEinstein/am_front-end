@@ -12,7 +12,7 @@ export default function HomeScreen() {
           className={'h-16 w-16 mx-4'}
           resizeMode="contain"
         />
-       <Text className='text-black font-bold text-center text-3xl max-w-[90%] mt-[-20] m-auto'>
+       <Text className='text-black font-bold text-center text-3xl max-w-[90%]  m-auto'>
           ECD-Adventist Messengers
         </Text>
       </View>

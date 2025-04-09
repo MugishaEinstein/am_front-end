@@ -22,7 +22,7 @@ export default function RegistrationForm() {
     firstName: '',
     lastName: '',
     middleName: '',
-    gender: '',
+    gender: 1,
     dateOfBirth: '',
     phoneNumber: '',
     email: '',
@@ -123,7 +123,7 @@ export default function RegistrationForm() {
             className={'h-16 w-16 mx-4'}
             resizeMode="contain"
           />
-          <Text className='text-black font-bold text-center text-3xl max-w-[90%] mt-[-20] m-auto'>
+          <Text className='text-black font-bold text-center text-3xl max-w-[90%]  m-auto'>
             ECD-Adventist Messengers
           </Text>
         </View>
@@ -170,8 +170,8 @@ export default function RegistrationForm() {
             selectedValue={user.gender} placeholder='Select Gender'
             onValueChange={(itemValue) => setUser({ ...user, gender: itemValue })}
           >
-            <Picker.Item label="Male" value='1' />
-            <Picker.Item label="Female" value="0" />
+            <Picker.Item label="Male" value={1} />
+            <Picker.Item label="Female" value={0} />
           </Picker>
         </View>
 

@@ -3,7 +3,7 @@ export type User={
      firstName:string
      lastName:string
      middleName:string
-     gender:string
+     gender:number
      dateOfBirth:string
      phoneNumber:string
      email:string
